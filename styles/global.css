@@ -1,5 +1,13 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 html, button{
-    font: 500 5rem/1.5 var(--ff-base);
+    font: 500 1rem/1.5 var(--montserrat);
 }
 
 h1,h2{
@@ -7,11 +15,13 @@ h1,h2{
 }
 
 h1{
-    line-height: 2.2;
+    line-height: 1.25;
+    font-size: 4rem;
 }
 
 h2{
     line-height: 1.2;
+    font-size: 2.5rem;
 }
 
 a{
