@@ -1,13 +1,13 @@
 html, button{
-    font: 500 1rem/1.5 var(--ff-base);
+    font: 500 5rem/1.5 var(--ff-base);
 }
 
 h1,h2{
-    font-family: var(--ff-syne)
+    font-family: var(--syne);
 }
 
 h1{
-    line-height: 1.25;
+    line-height: 2.2;
 }
 
 h2{
